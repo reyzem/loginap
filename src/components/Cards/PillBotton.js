@@ -8,6 +8,7 @@ function PillBotton({type, text, click}){
     "py-4",
     "my-4",
     "border",
+    "border-transparent",
     "text-base",
     "font-medium",
     "rounded-lg",
@@ -20,7 +21,7 @@ function PillBotton({type, text, click}){
     "md:px-10"
   ];
   return (
-    <button className={myClasses.join(" ")} type={type} onClick={click} >{text}</button>
+    <button  className={myClasses.join(" ")} type={type} onClick={click}>{text}</button>
   );
 }
 

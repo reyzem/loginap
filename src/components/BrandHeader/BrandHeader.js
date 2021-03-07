@@ -4,7 +4,7 @@ import "./BrandHeader.css";
 function BrandHeader({ children }){
   return (
     <header>
-      <Brand title="App reyzem"></Brand>
+      <Brand title="Reyzem App"></Brand>
       <NavBar></NavBar>
     </header>
   );
